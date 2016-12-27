@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <!-- * Author:Gokhan Kuyucak-->
+    <title>Github Contributions</title>
+    <link rel="stylesheet" href="./css/contributions.css">
+    <script src="./scripts/letters.js"></script>
+    <script src="./scripts/draw.js"></script>
+    <script>
+        window.onload = function() {
+            drawRectangles(52, 7);
+        }
+    </script>
+</head>
+
+<body>
+    <section>
+        <h2>Github Create Fake History</h2>
+        <ul class="inputList inputStyle clearfix">
+            <li>
+                <input type="text" id="inputWord" placeholder="Type to edit your history" oninput=drawText()>
+
+            </li>
+            <li>
+                <input type="submit" id="btnSaveAsPNG" value="Save As PNG" style="visibility:hidden;">
+            </li>
+        </ul>
+    </section>
+    <div class="calendarBorder">
+        <div class="calendarinline" data-graph-url="/users/gokhankuyucak/contributions">
+            <svg width="676" height="104" class="svgCalendar" id="svg">
+                <g transform="translate(16, 20)" id="gitrect">
+                    <text x="37" y="-10" class="month">Jan</text>
+                    <text x="97" y="-10" class="month">Feb</text>
+                    <text x="145" y="-10" class="month">Mar</text>
+                    <text x="193" y="-10" class="month">Apr</text>
+                    <text x="241" y="-10" class="month">May</text>
+                    <text x="301" y="-10" class="month">Jun</text>
+                    <text x="349" y="-10" class="month">Jul</text>
+                    <text x="409" y="-10" class="month">Aug</text>
+                    <text x="457" y="-10" class="month">Sep</text>
+                    <text x="505" y="-10" class="month">Oct</text>
+                    <text x="565" y="-10" class="month">Nov</text>
+                    <text x="613" y="-10" class="month">Dec</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="8" style="display: none;">Sun</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="20">Mon</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="32" style="display: none;">Tue</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="44">Wed</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="57" style="display: none;">Thu</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="69">Fri</text>
+                    <text text-anchor="start" class="wday" dx="-14" dy="81" style="display: none;">Sat</text>
+                </g>
+            </svg>
+        </div>
+        <div class="footer">
+            <div class="float-text">
+                <a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile">Learn how we count contributions</a>.</div>
+            <div class="float-right" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">Less
+                <ul class="legend">
+                    <li style="background-color: #eee" />
+                    <li style="background-color: #d6e685" />
+                    <li style="background-color: #8cc665" />
+                    <li style="background-color: #44a340" />
+                    <li style="background-color: #1e6823" />
+                </ul>More</div>
+        </div>
+    </div>
+</body>
+
+</html>

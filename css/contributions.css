@@ -1,0 +1,143 @@
+.calendarBorder
+{
+	padding-top: 18px !important;
+    padding-bottom: 8px !important;
+	margin-bottom:32px !important;
+	margin-left:32px !important;
+	margin-right:32px !important;
+	margin-top:32px !important;
+	margin-bottom:32px !important;
+	border-radius: 3px !important;
+	border-color: #ddd !important;
+	border: 1px #e5e5e5 solid !important;
+	box-sizing: border-box;
+	display:block;
+	width:720px;
+
+
+
+}
+.calendarinline{
+	padding: 5px 0 0;
+    text-align: center;
+	box-sizing: border-box;
+}
+.svgCalendar
+{
+	height: 126px;
+    padding: 5px 0 0;
+    text-align: center;
+}
+.day{
+	opacity: 0.5;
+	shape-rendering: crispedges;
+	box-sizing: border-box;
+	fill: #eeeeee;
+
+}
+.color1
+{
+	fill:#d6e685;
+}
+.color2
+{
+	fill:#8cc665;
+}
+.color3
+{
+	fill:#44a340;
+}
+.color4
+{
+	fill:#1e6823;
+}
+.footer
+{
+	padding: 0 10px 12px;
+    font-size: 11px;
+	display: inline-block;
+	box-sizing: border-box;
+	width:100%;
+}
+.float-left{
+	    float: left !important;
+		color: #767676 !important;
+		 box-sizing: border-box;
+		 display: block;
+}
+.float-right{
+	    float: right;
+		 color: #767676 !important;
+}
+.legend{
+	position: relative;
+    bottom: -1px;
+    display: inline-block;
+	margin: 0 5px;
+    list-style: none;
+}
+.legend li{
+	 display: inline-block;
+     width: 10px;
+    height: 10px;
+}
+section {
+  margin-left:32px !important;
+  margin-right:32px !important;
+  margin-bottom: 60px;
+  padding-top:10px;
+  padding-bottom:60px;
+
+  background-color: #efefef;
+  width:720px;
+}
+input {
+  
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.inputStyle input {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.inputStyle input:focus, .inputStyle input.focus {
+  border: solid 5px #969696;
+}
+ul.inputList {
+  list-style: none;
+  margin: 0 -10px;
+  padding: 0;
+}
+ul.inputList li {
+  display: block;
+  padding: 0 10px;
+  width: 45%;
+  float: left;
+}
+body{	
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
